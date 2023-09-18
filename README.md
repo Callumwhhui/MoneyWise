@@ -55,6 +55,25 @@ Our journey with MoneyWise has been an incredible learning experience, encompass
 
 3. **Version Control**: Utilising Git and GitHub throughout the project underscored the importance of version control in collaborative development, enabling efficient code management and tracking changes.
 
-## Next Step: 
+## The Brief 
 
-### Hire us!!! 😇
+☐ Be a full-stack Django application.
+
+☐ Connect to and perform data operations on a PostgreSQL database (the default SQLLite3 database is not acceptable).
+
+☐ If consuming an API (OPTIONAL), have at least one data entity (Model) in addition to the built-in User model. The related entity can be either a one-to-many (1:M) or a many-to-many (M:M) relationship.
+
+☐ If not consuming an API, have at least two data entities (Models) in addition to the built-in User model. It is preferable to have at least one one-to-many (1:M) and one many-to-many (M:M) relationship between entities/models.
+
+☐ Have full-CRUD data operations across any combination of the app's models (excluding the User model). For example, creating/reading/updating posts and creating/deleting comments qualifies as full-CRUD data operations.
+
+☐ Authenticate users using Django's built-in authentication.
+
+☐ Implement authorization by restricting access to the Creation, Updating & Deletion of data resources using the login_required decorator in the case of view functions; or, in the case of class-based views, inheriting from the LoginRequiredMixin class.
+
+☐ Be deployed online using Heroku. Presentations must use the deployed application.
+
+The app may optionally:
+☐ Upload images to AWS S3
+
+☐ Consume an API (installation of the Requests package will be necessary)
