@@ -55,6 +55,14 @@ Our journey with MoneyWise has been an incredible learning experience, encompass
 
 3. **Version Control**: Utilising Git and GitHub throughout the project underscored the importance of version control in collaborative development, enabling efficient code management and tracking changes.
 
+## My Part In This Project
+
+I took the lead in enhancing the project's frontend, implementing critical interactivity with JavaScript, including the introduction of a dark mode and optimizing the navbar for responsiveness. Most notably, I personally spearheaded the project's styling, ensuring a polished and visually appealing user experience.
+
+### Darkmode 
+
+Something I am most proud of implementing into the project would be the dark mode. 
+
 ## The Brief 
 
 ☐ Be a full-stack Django application.
