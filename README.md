@@ -63,6 +63,28 @@ I took the lead in enhancing the project's frontend, implementing critical inter
 
 Something I am most proud of implementing into the project would be the dark mode. 
 
+Here is the function I wrote to help toggle the dark mode. 
+```
+function toggleDarkMode() {
+			body.classList.toggle("dark");
+			// Store the dark mode preference in localStorage
+			localStorage.setItem('darkMode', body.classList.contains('dark'));
+		}
+```
+Here Is the Event Listener. 
+```
+modeToggle.addEventListener("click", () => {
+			toggleDarkMode();
+		});
+```
+And here is the code that checks in local storage if the dark mode has been toggled or not. 
+```
+const isDarkMode = JSON.parse(localStorage.getItem('darkMode'));
+		if (isDarkMode) {
+			body.classList.add('dark');
+		}
+```
+
 ## The Brief 
 
 ☐ Be a full-stack Django application.
